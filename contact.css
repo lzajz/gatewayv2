@@ -1,0 +1,117 @@
+html,body {
+    margin:0;
+    padding:0px;
+  }
+  /* -------------- Nav Bar---------------*/
+  .mynav {
+    display: flex;
+    height: 50px;
+    background-color:#ff9999;
+    margin:0px;
+  }
+  .mynav ul {
+    list-style:none;
+    padding: 0;
+  }
+  .mynav li {
+    float: left;
+  }
+  .mynav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+   
+  .nav-list{
+    margin-left: 150px;
+  }
+  
+  .mynav li a {
+    color:white;
+    text-decoration:none;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  /* ---------------Contact Page------------ */
+  .container {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 40px;
+  }
+  
+  input[type=text], input[type=textarea] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom: 30px;
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #ff66b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff3399;
+  }
+  
+  textarea {
+    height:600px;
+    width:600px;
+  }
+  /*-----------------footer----------------*/
+  
+  
+  .footer {
+    width: 100%;
+    background-color:lightgray;
+    margin-top: auto;
+    
+  }
+  
+    .footer {
+    width: 100%;
+    background-color: lightgray;
+    margin-top: auto;
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 20%;
+    padding-bottom: 4%;
+  }
+  
+  
+  .footerTag {
+    width:200px;
+  }
+  
+  .footerTag a  {
+    text-decoration: none;
+    color:black;
+  }
+  /*  media queries */
+
+/* mobile  */
+  
+@media (min-width:320px){
+    .footer{
+      height: 200px;
+      padding: 100px;
+    }
+    .mynav ul{
+  
+      display: flex;
+      align-content: flex-start;
+    }
+
+   }

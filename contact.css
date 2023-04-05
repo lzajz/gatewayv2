@@ -81,13 +81,12 @@ html,body {
   }
   
     .footer {
-    width: 100%;
-    background-color: lightgray;
-    margin-top: auto;
-    display:flex;
-    justify-content:space-evenly;
-    padding-top: 20%;
-    padding-bottom: 4%;
+      width: 100%;
+      background-color: lightgray;
+      margin-top: auto;
+      display: flex;
+      justify-content: space-evenly;
+      padding-bottom: 30vh;
   }
   
   
@@ -99,19 +98,5 @@ html,body {
     text-decoration: none;
     color:black;
   }
-  /*  media queries */
-
-/* mobile  */
   
-@media (min-width:320px){
-    .footer{
-      height: 200px;
-      padding: 100px;
-    }
-    .mynav ul{
   
-      display: flex;
-      align-content: flex-start;
-    }
-
-   }
